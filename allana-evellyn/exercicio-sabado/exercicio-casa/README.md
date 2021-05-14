@@ -7,8 +7,24 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+é um processo em que uma ação vai ser repetida diversas vezes
+
+
+
 2. Qual a diferença de uma function padrão e a arrow function?
+uma arrow function é uma forma mais curta de escrever uma função em javascript 
+
+
+
+
+
 3. Como funciona o método map()? 
+o map é um método em que a função callback passa por cada elemento do array e gera um novo array com o resultado de acordo com o que foi pedido pelo método
+
+
+
+
+
 ```
 
 ### 2. Manipulando objetos 
