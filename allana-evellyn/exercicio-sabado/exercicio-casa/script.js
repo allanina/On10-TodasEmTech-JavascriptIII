@@ -35,3 +35,12 @@ const users = [
 
   }
 */
+
+let tableUser = users.map((user)=>{
+  return {
+    fullName : `${user.fullName.firstName} ${user.fullName.lastName}`,
+    genres : user.genres, 
+    score : user.score
+  }
+});
+console.log(tableUser);

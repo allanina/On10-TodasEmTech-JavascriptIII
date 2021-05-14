@@ -11,30 +11,40 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 
 //---1.
 
-multiplicacao(a,b) {
-    a * b  
+multiplicacao(a,b) {  //função de multiplicação??
+    a * b  // return
 }
+
+function multiplicacao(a,b) {
+    return a *b
+}
+
 
 //---2. 
 
 while(item > 10) {
-    item++
+ (return)   item++ // infinito??? 
 }
 
 
 //---3. Deve exibir "Banana" 4 vezes
 
-const fruits = ["Maça", "Banana", "Limão", "Pêra"];
-for(x; x = 0; x+) {
-    consolelog(x)
+const fruits = ["Maça", "Banana", "Limão", "Pêra"]; // let???
+for(x; x = 0; x+) { //(x++)
+    consolelog(x) //console.log
 }
+
+for(let x=0; x < fruits.length; x++){ / começa sempre com x menor
+    console.log(fruits[1]);
+}   
+
 
 //---4. Deve exibir um alerta "oi gente" se o primeiro elemento for maior que o segundo
 
 if frases < palavras {
     alert("oi gente")
 } else if {
-    aler ("tchau gente")
+    aler ("tchau gente") /// alert  ??
 }
 
 
@@ -42,10 +52,19 @@ if frases < palavras {
 
 
 let curso: {
-  nome = "Jardinagem";
+  nome = "Jardinagem";  : 
   periodo = "manha" ;
   professora = "Amanda" {
       sobrenome = "Lopes"
   };
 }
-console.log(professora.sobrenome)
+console.log(professora.sobrenome) //(curso.sobrenome)
+
+const objeto = {
+    nome: "Jardinagem",
+    periodo: "manhã",
+    professora: {
+        nome: "Lucia",
+        sobrenome: "Santos",
+    }
+}

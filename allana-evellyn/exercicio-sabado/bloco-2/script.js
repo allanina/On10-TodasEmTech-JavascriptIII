@@ -2,24 +2,65 @@
 
 // 1. Crie uma array com 5 frutas diferentes;
 
+let frutas = [
+    'maçã',
+    'laranja',
+    'caju',
+    'cajá',
+    'manga',
+];
+//console.log(frutas);
+
 
 //2. Crie uma array com 100 espaços vazios.
 
+let arrayGigante = new Array(100);
+
+//outro jeito
+//let arrayGigante = [];
+//arrayGigante.length = 100;
+
+
 
 //3. Printe o ultimo elemento da array de frutas, baseando-se no seu length
+//console.log(frutas[frutas.length - 1]);
+
+
+
 
 
 //----- For
 
 //4. Printar na tela em cada linha o nome de uma fruta da array anterior;
+//for (let i = 0; i < frutas.length; i++){
+//console.log(frutas[i]);
+//}
 
+
+//outra forma
+//for (i of frutas){
+//  console.log(i);
+//}
 
 //5. Inserir números crescentes a partir do 1 na array de 100 slots (a array vai ter 100 items, com o primeiro sendo 1 e o último sendo 100).
+
+for(let i = 0; i < arrayGigante.length; i++ ){
+  arrayGigante[i] = (i + 1);
+}
+
+
+
+
+
 
 
 //----- ForEach
 
 //6. criar uma array, cujos itens sejam o dobro dos items da array de 100 itens.
+
+
+
+
 
 //7. Dada a seguinte array, printe o tamanho de cada string a cada iteração
 
@@ -83,6 +124,10 @@ const data = [
 ];
 
 // printar no console apenas os cachorros
+data.filter((especie) =>{
+  return (data.tipo) === "cachorro"
+})
+console.log(especie)
 
 // printe no console apenas os gatos
 
